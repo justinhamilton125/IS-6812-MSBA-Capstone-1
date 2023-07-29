@@ -55,8 +55,8 @@ Throughout the phases of this project, I contriduted by,
 - Made aesthetic slides that communicated the solution and reasoning to Home Credit
 
 ## Impact/Business Value:
-README: The business value of the solution.
 
+Home Credit can lower costs by using this model to predict if a customer is going to default based on their history. Home Credit can also have
 
 
 ## Difficulties Along the Way
