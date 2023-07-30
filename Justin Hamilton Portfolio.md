@@ -54,11 +54,12 @@ Throughout the phases of this project, I contriduted by,
 
 ## Impact/Business Value:
 
-Home Credit can lower costs by using this model to predict if a customer is going to default based on their history. Home Credit can also have
+Home Credit can lower costs by using this model to predict if a customer is going to default based on their history. Home Credit also benefits with this model by lowering risk of giving a loan to someone who is going to default. Using this model allows for Home Credit to see exactly which customer is predicted to default. Using that information, they can then only give the loan to these who are predicted to not default. This decision making process lowers risk of giving to someone that will default, lowers cost of never having a loan completed on payments, and increases revenue by lending to only those that are predicted to make payments on their loan which is the revenue for Home Credit. This combination of lowered risk, lowered cost, and increasing revenue will lead to an increase of profits.
 
 
 ## Difficulties Along the Way
-README: Difficulties that your group encountered along the way.
+Throughout this project, the main difficulties our group encountered were. 
+
 
 ## Key Take Aways
 README: What you learned in the project.
