@@ -68,7 +68,6 @@ Throughout the phases of this project, I contributed by,
 **Presentation**
 - Gave a professional presentation on solutions to Home Credit
 - Made aesthetic slides that communicated the solution and reasoning to Home Credit
-- Showed the process of displaying of the top features, which of those that are ones Home Credit could use in a future strategy and had more interpretation to
 
 [Link to PowerPoint slide Deck Individual Portion](https://github.com/justinhamilton125/Justin_Hamilton_Portfolio/blob/main/Project%201%3A%20Home%20Credit%20Default%20Model%20Files/Justin%20Hamilton%20Presentation%20Portion%20Slide%20Deck.pptx)
 
