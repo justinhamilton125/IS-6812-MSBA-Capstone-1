@@ -4,7 +4,7 @@
 There is currently one project, but this repo is intended to be updated with multiple projects.
 
 
-# [Project 1: Home Credit Default Analysis - Kaggle Project for MSBA Capstone](https://github.com/justinhamilton125/Justin_Hamilton_Portfolio/tree/main/Project%201:%20Home%20Credit%20Default%20Model%20Files)
+# [Project 1: Home Credit Default Analysis - Kaggle Project for MSBA Capstone (Linked)](https://github.com/justinhamilton125/Justin_Hamilton_Portfolio/tree/main/Project%201:%20Home%20Credit%20Default%20Model%20Files)
 
 ## Project Overview:
 
