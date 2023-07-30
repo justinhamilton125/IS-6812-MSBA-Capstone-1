@@ -1,0 +1,31 @@
+python main.py
+
+print("This is is my file being set up for the GitHub Set Up Assignment for Capstone 1")
+print("I am excited to take this course")
+
+
+> In this code I use a fun example to show my changes.
+
+import random
+
+def random_names():
+    adjectives = ["Happy", "Silly", "Crazy", "Spunky", "Funny", "Whacky"]
+    animals = ["Penguin", "Giraffe", "Elephant", "Kangaroo", "Monkey", "Platypus"]
+    
+    adjective = random.choice(adjectives)
+    animal = random.choice(animals)
+    
+    return adjective + " " + animal
+
+def main():
+    print("Welcome to the Random Name Generator!")
+    print("Your silly name is:", silly_name_generator())
+
+if __name__ == "__main__":
+    main()
+
+
+print("This is my practicing my branching/pushing skills in GitHub")
+
+
+print("This is another practice at pushing the changes made."
