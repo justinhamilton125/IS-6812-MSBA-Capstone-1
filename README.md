@@ -39,7 +39,7 @@ Based on our model's analysis, we identified several important factors that sign
 
 These findings can be crucial for Home Credit to assess the creditworthiness of applicants and make informed lending decisions that will lead to minimized risk, cost, increasing revenue, and profit for the company.
 
-![Visual of Level of Importance for Each Feature based on Model Results](https://github.com/justinhamilton125/Justin_Hamilton_Portfolio/blob/main/Project%201%3A%20Home%20Credit%20Default%20Model%20Files/Feature%20Importance%20Solution%20Graph.png)
+[![Visual of Level of Importance for Each Feature based on Model Results]([image_url](https://github.com/justinhamilton125/Justin_Hamilton_Portfolio/blob/main/Project%201%3A%20Home%20Credit%20Default%20Model%20Files/Feature%20Importance%20Solution%20Graph.png))]([hyperlink_url](https://github.com/justinhamilton125/Justin_Hamilton_Portfolio/blob/main/Project%201%3A%20Home%20Credit%20Default%20Model%20Files/Feature%20Importance%20Solution%20Graph.png))
 
 
 ## Individual Contribution
