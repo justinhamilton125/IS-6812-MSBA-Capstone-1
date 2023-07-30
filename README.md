@@ -49,9 +49,9 @@ Throughout the phases of this project, I contriduted by,
 - Exploring summary information of the categorical variables in the datasets
 - Getting the unique values for the categorical columns in the dataframe
 
-[Link to Jupyter Notebook of EDA Individual Contributions](https://github.com/justinhamilton125/Justin_Hamilton_Portfolio/blob/main/Project%201%3A%20Home%20Credit%20Default%20Model%20Files/Jupyter%20Notebooks/Justin%20Hamilton%20EDA%20Individual%20Contribution.ipynb)
+[Link to Jupyter Notebook of EDA Individual Contributions]()
 
-[Link to HTML Version of EDA Individual Contributions](https://github.com/justinhamilton125/Justin_Hamilton_Portfolio/blob/main/Project%201%3A%20Home%20Credit%20Default%20Model%20Files/HTML%20Files/Justin%20Hamilton%20EDA%20Individual%20Contribution.html)
+[Link to HTML Version of EDA Individual Contributions]()
 
 **Modeling:**
 - Preparing the dataframes by merging selected dataframes to get the best information
@@ -60,9 +60,9 @@ Throughout the phases of this project, I contriduted by,
 - Created a Model Performance Summary Table that allowed our group to easily compare which of our models is the best.
 - Discussed the results from our models of the top features of a client that would be important when consdiering if they would default on their loan. 
 
-[Link to Modeling Individual Contributions in Jupyter Notebook](https://github.com/justinhamilton125/Justin_Hamilton_Portfolio/blob/main/Project%201%3A%20Home%20Credit%20Default%20Model%20Files/Jupyter%20Notebooks/%20Justin%20Hamilton%20Modeling%20Individual%20Contributions.ipynb)
+[Link to Modeling Individual Contributions in Jupyter Notebook]()
 
-[Link to Modeling Individual Contribution in HTML File form](https://github.com/justinhamilton125/Justin_Hamilton_Portfolio/blob/main/Project%201%3A%20Home%20Credit%20Default%20Model%20Files/HTML%20Files/_Justin%20Hamilton%20Modeling%20Individual%20Contributions.html)
+[Link to Modeling Individual Contribution in HTML File form]()
 
 **Presentation**
 - Gave a professional presentation on solutions to Home Credit
