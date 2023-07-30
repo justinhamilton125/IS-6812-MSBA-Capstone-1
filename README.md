@@ -37,7 +37,10 @@ Based on our model's analysis, we identified several important factors that sign
 5. A large number of enquiries made to the Credit Bureau within one hour prior to the application.
 6. Mismatch between the client's permanent address and contact address.
 
-These findings can be crucial for Home Credit to assess the creditworthiness of applicants and make informed lending decisions.
+These findings can be crucial for Home Credit to assess the creditworthiness of applicants and make informed lending decisions that will lead to minimized risk, cost, increasing revenue, and profit for the company.
+
+![Visual of Level of Importance for Each Feature based on Model Results]([image_url](https://github.com/justinhamilton125/Justin_Hamilton_Portfolio/blob/main/Project%201%3A%20Home%20Credit%20Default%20Model%20Files/Feature%20Importance%20Solution%20Graph.png))
+
 
 
 ## Individual Contribution
