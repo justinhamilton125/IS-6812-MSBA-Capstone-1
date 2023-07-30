@@ -42,6 +42,9 @@ These findings can be crucial for Home Credit to assess the creditworthiness of 
 [![Visual of Level of Importance for Each Feature based on Model Results]([image_url](https://github.com/justinhamilton125/Justin_Hamilton_Portfolio/blob/main/Project%201%3A%20Home%20Credit%20Default%20Model%20Files/Feature%20Importance%20Solution%20Graph.png))]([hyperlink_url](https://github.com/justinhamilton125/Justin_Hamilton_Portfolio/blob/main/Project%201%3A%20Home%20Credit%20Default%20Model%20Files/Feature%20Importance%20Solution%20Graph.png))
 
 
+![Visual of Level of Importance for Each Feature based on Model Results](Project 1: Home Credit Default Model Files/Feature Importance Solution Graph.png)
+
+
 ## Individual Contribution
 
 Throughout the phases of this project, I contributed by,
