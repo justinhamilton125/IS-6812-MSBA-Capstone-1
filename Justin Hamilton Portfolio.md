@@ -1,5 +1,3 @@
-# Justin Hamilton Portfolio
-
 
 # [Project 1: Home Credit Default Analysis](https://github.com/justinhamilton125/Justin-Hamilton-Portfolio)
 
