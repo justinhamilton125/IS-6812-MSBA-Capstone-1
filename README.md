@@ -9,31 +9,35 @@ There is currently only 1 project, but this repo is intended to be updated with 
 ## Project Overview:
 
 **Project Objective:** 
-Home Credit (Loan Brokerage) will be able to identify if a customer is a safe candidate to lend to based on attributes about a person who is most likely to default on a loan, resulting in an increase in revenue, improved customer experience, and lower default rates.
+Create a predictive model for Home Credit (Loan Brokerage) to identify safe candidates for lending. The model will use customer financial behavior data to determine whether a customer is likely to default on a loan. The project aims to increase revenue, enhance customer experience, and reduce default rates.
+
 
 **Business Problem:**
-Home Credit desires to know safe borrowers in a customer base that is unfamiliar with banking. Lending to those who are more likely to default on loans decreases the profits of Home Credit and results in negative customer experiences.
+Home Credit faces challenges in identifying safe borrowers among customers who are unfamiliar with banking. Lending to individuals with a higher likelihood of loan default leads to decreased profits and negative customer experiences.
+
 
 **Analytic Problem:**
 
-The target variable is specifically customers that do have a negative history of repayment to lend to, and positive repayment. Represented in the application_train/test.csv sets of binary where 1 = Not trust worthy borrower (Client with payment difficulties), 0 = Trustworthy borrower (client with good repayment history).
+The project focuses on predicting the creditworthiness of customers based on their financial behavior data. The target variable is binary, where 1 represents customers with payment difficulties (not trustworthy borrowers) and 0 represents trustworthy borrowers with a positive repayment history. 
 
-Develop a model that will predict which customers will be good borrowers, using a classification method based on customer financial behavior data.
+The objective is to develop a classification model that accurately identifies good borrowers.
 
 [Link to a more detailed Business Problem Statement](https://github.com/justinhamilton125/Justin_Hamilton_Portfolio/blob/main/Project%201%3A%20Home%20Credit%20Default%20Model%20Files/Business%20Problem%20Statement%20Home%20Credit%20Justin%20Hamilton.pdf)
 
 
 ## Solution to Business Problem
-My groups solution to the problem was a Gradient Boosting Model. This model gave us a Kaggle score of .656 and AUC of .669. 
+Our group's solution to the business problem involved implementing a Gradient Boosting Model. This model yielded a Kaggle score of 0.656 and an AUC of 0.669, indicating its reasonable performance.
 
-Based on our model, we found that important factors to consider that the person will default are
+Based on our model's analysis, we identified several important factors that significantly influence the likelihood of loan default:
 
-1. Many enquiries to Credit Bureau 1 day before application
-2. Client provided work phone
-3. Low rated Regions of city where the client was from based on address
-4. High price of goods that the loan was used for
-5. Many enquiries to the Credit Bureau 1 hour before application
-6. Permanent Address does not match the Contact Address of the Client
+1. A high number of enquiries made to Credit Bureau just one day before the loan application.
+2. Clients providing a work phone during the application process.
+3. Clients residing in regions of the city with lower ratings, as determined by their address.
+4. Loans used for purchasing high-priced goods.
+5. A large number of enquiries made to the Credit Bureau within one hour prior to the application.
+6. Mismatch between the client's permanent address and contact address.
+
+These findings can be crucial for Home Credit to assess the creditworthiness of applicants and make informed lending decisions.
 
 
 ## Individual Contribution
@@ -42,46 +46,50 @@ Throughout the phases of this project, I contributed by,
 
 **Exploratory Data Analysis:**
 
-- Developing the Project Objective, Business Problem, and Analytic Problem
-- Listing clear definitions for each of the variables of the data sets that were provided
-- Exploring through each of the datasets by creating the dataframes,
-- Finding common columns among the dataframes
-- Exploring the summary stats for all of the numeric columns within the dataframes
-- Exploring summary information of the categorical variables in the datasets
-- Getting the unique values for the categorical columns in the data frame
+- Defining the Project Objective, Business Problem, and Analytic Problem
+- Listing and defining variables present in the provided datasets
+- Exploring the datasets by creating dataframes
+- Identifying common columns among the dataframes
+- Analyzing summary statistics for all numeric columns in the dataframes
+- Summarizing information for categorical variables in the datasets
+- Obtaining unique values for categorical columns in the dataframes
+
 
 [Link to Jupyter Notebook of EDA Individual Contributions](https://github.com/justinhamilton125/Justin_Hamilton_Portfolio/blob/main/Project%201%3A%20Home%20Credit%20Default%20Model%20Files/Exploratory%20Data%20Analysis%20Files/Justin%20Hamilton%20EDA%20Individual%20Contribution.ipynb)
 
 [Link to HTML Version of EDA Individual Contributions](https://github.com/justinhamilton125/Justin_Hamilton_Portfolio/blob/main/Project%201%3A%20Home%20Credit%20Default%20Model%20Files/Exploratory%20Data%20Analysis%20Files/Justin%20Hamilton%20EDA%20Individual%20Contribution%20(1).html)
 
 **Modeling:**
-- Preparing the dataframes by merging selected dataframes to get the best information
-- Built the Multiple Regression, Random Forrest Classifier, and Ensemble Model
-- For each model I built, tuned the hyperparameters, evaluated the performance of the best model created, finding and discussing the top features toward a customer defaulting on a loan, ran the model against the test set
-- Created a Model Performance Summary Table that allowed our group to easily compare which of our models is the best.
-- Discussed the results from our models of the top features of a client that would be important when considering if they would default on their loan. 
+
+- Prepared dataframes by merging selected datasets to obtain relevant information
+- Developed Multiple Regression, Random Forest Classifier, and Ensemble models
+- Tuned hyperparameters for each model and evaluated their performance
+- Identified and discussed top features influencing customer loan default
+- Tested the models on the test set
+- Created a Model Performance Summary Table for easy model comparison
+- Discussed and analyzed the results of the top features influencing loan default prediction
 
 [Link to Modeling Individual Contributions in Jupyter Notebook](https://github.com/justinhamilton125/Justin_Hamilton_Portfolio/blob/main/Project%201%3A%20Home%20Credit%20Default%20Model%20Files/Modeling%20Files/%20Justin%20Hamilton%20Modeling%20Individual%20Contributions.ipynb)
 
 [Link to Modeling Individual Contribution in HTML File form](https://github.com/justinhamilton125/Justin_Hamilton_Portfolio/blob/main/Project%201%3A%20Home%20Credit%20Default%20Model%20Files/Modeling%20Files/_Justin%20Hamilton%20Modeling%20Individual%20Contributions%20(2).html)
 
 **Presentation**
-- Gave a professional presentation on solutions to Home Credit
-- Made aesthetic slides that communicated the solution and reasoning to Home Credit
+- Delivered a professional presentation outlining the solutions for Home Credit.
+- Designed visually appealing and informative slides to effectively communicate the solution and rationale to Home Credit.
 
 [Link to PowerPoint slide Deck Individual Portion](https://github.com/justinhamilton125/Justin_Hamilton_Portfolio/blob/main/Project%201%3A%20Home%20Credit%20Default%20Model%20Files/Justin%20Hamilton%20Presentation%20Portion%20Slide%20Deck.pptx)
 
 ## Impact/Business Value:
 
-Home Credit can lower costs by using this model to predict if a customer is going to default based on their history. Home Credit also benefits with this model by lowering risk of giving a loan to someone who is going to default. Using this model allows for Home Credit to see exactly which customer is predicted to default. Using that information, they can then only give the loan to these who are predicted to not default. This decision making process lowers risk of giving to someone that will default, lowers cost of never having a loan completed on payments, and increases revenue by lending to only those that are predicted to make payments on their loan which is the revenue for Home Credit. This combination of lowered risk, lowered cost, and increasing revenue will lead to an increase of profits.
-
+Implementing this predictive model enables Home Credit to reduce costs by accurately identifying customers likely to default based on their historical data. It also minimizes the risk of granting loans to high-risk individuals. By using the model's predictions, Home Credit can selectively offer loans only to customers projected to have a low likelihood of defaulting. This strategic decision-making process effectively mitigates the risk of loan defaults, reduces non-payment costs, and increases revenue by lending to reliable borrowers. Consequently, this combination of risk reduction, cost optimization, and increased revenue leads to a substantial increase in overall profits for Home Credit.
 
 ## Difficulties Along the Way
-Throughout this project, the main difficulties our group encountered were related to the capacity of our computers memory and processing units. We each were only using laptops with minimal storage, and to run the models at times took nearly 8 hours. Due to the time that it took for a model to run, it was difficult to time and train the exact results to what we wanted/needed.
+
+Throughout this project, our group faced significant challenges related to the limited memory and processing capacity of our individual laptops. Each team member was using a laptop with minimal storage and computing power. As a result, running the models sometimes took up to 8 hours, leading to extended waiting times and difficulties in fine-tuning and training the models to achieve the desired results. The prolonged execution times hindered our ability to efficiently iterate and optimize the models according to our specific requirements.
 
 
 ## Key Take Aways
 Throughout this project my main key takeaways were that 
-- There is a power in people. Collaboration helps one another to find better solutions within the data and seeing new perspectives about how to solve problems.
-- When it comes to doing a data analysis, it is more than finding the variables. A good analysis will find a solution, but a great analysis will show impact and connect to the business value.
-- A sense of curiosity is important when it comes to data analysis. It may take a bit of curiosity to see how each of your solutions can be interpreted into a meaningful information to learn from. It is important to stay curious as you go through the analysis because the curiosity will motivate you to dig deep into the data and push you to find solutions you would not have thought of originally.
+- Collaboration empowers individuals, enabling them to discover superior solutions by leveraging diverse perspectives and insights from the data.
+- Data analysis extends beyond merely identifying variables. While a good analysis yields solutions, a great analysis demonstrates its impact and connects to tangible business value.
+- Cultivating a sense of curiosity is paramount in data analysis. Embracing curiosity allows us to derive meaningful insights from our solutions, encouraging deeper exploration of the data and uncovering novel and unexpected solutions. Staying curious throughout the analysis process motivates us to explore uncharted territories and unlocks valuable discoveries we may not have initially considered.
