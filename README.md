@@ -16,7 +16,7 @@ Home Credit desires to know safe borrowers in a customer base that is unfamiliar
 
 **Analytic Problem:**
 
-The target variable is specificially customers that do have a negative history of repayment to lend to, and postive repayment. Represented in the application_train/test.csv sets of binary where 1 = Not trust worthy borrower (Client with payment difficulties), 0 = Trustworthy borrower (client with good repayment history).
+The target variable is specifically customers that do have a negative history of repayment to lend to, and positive repayment. Represented in the application_train/test.csv sets of binary where 1 = Not trust worthy borrower (Client with payment difficulties), 0 = Trustworthy borrower (client with good repayment history).
 
 Develop a model that will predict which customers will be good borrowers, using a classification method based on customer financial behavior data.
 
@@ -32,12 +32,13 @@ Based on our model, we found that important factors to consider that the person 
 2. Client provided work phone
 3. Low rated Regions of city where the client was from based on address
 4. High price of goods that the loan was used for
-5. Many enqiries to the Credit Bureau 1 hour before application
+5. Many enquiries to the Credit Bureau 1 hour before application
 6. Permanent Address does not match the Contact Address of the Client
 
 
 ## Individual Contribution
-Throughout the phases of this project, I contriduted by, 
+
+Throughout the phases of this project, I contributed by,
 
 **Exploratory Data Analysis:**
 
@@ -47,7 +48,7 @@ Throughout the phases of this project, I contriduted by,
 - Finding common columns among the dataframes
 - Exploring the summary stats for all of the numeric columns within the dataframes
 - Exploring summary information of the categorical variables in the datasets
-- Getting the unique values for the categorical columns in the dataframe
+- Getting the unique values for the categorical columns in the data frame
 
 [Link to Jupyter Notebook of EDA Individual Contributions]()
 
@@ -56,9 +57,9 @@ Throughout the phases of this project, I contriduted by,
 **Modeling:**
 - Preparing the dataframes by merging selected dataframes to get the best information
 - Built the Multiple Regression, Random Forrest Classifier, and Ensemble Model
-- For each model I built, tuned the hyperparameters, evaluated the performance of the best model created, finding and discussing the top features towward a customer defaulting on a loan, ran the model against the test set
+- For each model I built, tuned the hyperparameters, evaluated the performance of the best model created, finding and discussing the top features toward a customer defaulting on a loan, ran the model against the test set
 - Created a Model Performance Summary Table that allowed our group to easily compare which of our models is the best.
-- Discussed the results from our models of the top features of a client that would be important when consdiering if they would default on their loan. 
+- Discussed the results from our models of the top features of a client that would be important when considering if they would default on their loan. 
 
 [Link to Modeling Individual Contributions in Jupyter Notebook]()
 
@@ -84,4 +85,4 @@ Throughout this project, the main difficulties our group encountered were relate
 Throughout this project my main key takeaways were that 
 - There is a power in people. Collaboration helps one another to find better solutions within the data and seeing new perspectives about how to solve problems.
 - When it comes to doing a data analysis, it is more than finding the variables. A good analysis will find a solution, but a great analysis will show impact and connect to the business value.
-- A sense of curiousity is important when it comes to data analysis. It may take a bit of curiousity to see how each of your solutions can be interepreted into a meaningful information to learn from. It is important to stay curious as you go through the analysis because the curiousity will motivate you to dig deep into the data and push you to find solutions you would not have thought of originally.
+- A sense of curiosity is important when it comes to data analysis. It may take a bit of curiosity to see how each of your solutions can be interpreted into a meaningful information to learn from. It is important to stay curious as you go through the analysis because the curiosity will motivate you to dig deep into the data and push you to find solutions you would not have thought of originally.
