@@ -1,7 +1,7 @@
 
 **[Click Here to view my Portfolio Repository with all Project Folders](https://github.com/justinhamilton125/Justin_Hamilton_Portfolio/tree/main)**
 
-There is currently only 1 project, but this repo is intended to be updated with multiple projects.
+There is currently one project, but this repo is intended to be updated with multiple projects.
 
 
 # [Project 1: Home Credit Default Analysis - Kaggle Project for MSBA Capstone](https://github.com/justinhamilton125/Justin_Hamilton_Portfolio/tree/main/Project%201:%20Home%20Credit%20Default%20Model%20Files)
@@ -30,11 +30,11 @@ Our group's solution to the business problem involved implementing a Gradient Bo
 
 Based on our model's analysis, we identified several important factors that significantly influence the likelihood of loan default:
 
-1. A high number of enquiries made to Credit Bureau just one day before the loan application.
-2. Clients providing a work phone during the application process.
+1. A high number of enquiries were made to the Credit Bureau just one day before the loan application.
+2. Clients provide a work phone during the application process.
 3. Clients residing in regions of the city with lower ratings, as determined by their address.
 4. Loans used for purchasing high-priced goods.
-5. A large number of enquiries made to the Credit Bureau within one hour prior to the application.
+5. A large number of enquiries were made to the Credit Bureau within one hour prior to the application.
 6. Mismatch between the client's permanent address and contact address.
 
 These findings can be crucial for Home Credit to assess the creditworthiness of applicants and make informed lending decisions that will lead to minimized risk, cost, increasing revenue, and profit for the company.
@@ -83,7 +83,7 @@ Throughout the phases of this project, I contributed by,
 
 ## Impact/Business Value:
 
-Implementing this predictive model enables Home Credit to reduce costs by accurately identifying customers likely to default based on their historical data. It also minimizes the risk of granting loans to high-risk individuals. By using the model's predictions, Home Credit can selectively offer loans only to customers projected to have a low likelihood of defaulting. This strategic decision-making process effectively mitigates the risk of loan defaults, reduces non-payment costs, and increases revenue by lending to reliable borrowers. Consequently, this combination of risk reduction, cost optimization, and increased revenue leads to a substantial increase in overall profits for Home Credit.
+Implementing this predictive model enables Home Credit to reduce costs by accurately identifying customers likely to default based on their historical data. It also minimizes the risk of granting loans to high-risk individuals. By using the model's predictions, Home Credit can selectively offer loans only to customers projected to have a low likelihood of defaulting. This strategic decision-making process effectively mitigates the risk of loan defaults, reduces non-payment costs, and increases revenue by lending to dependable borrowers. Consequently, this combination of risk reduction, cost optimization, and increased revenue leads to a substantial increase in overall profits for Home Credit.
 
 ## Difficulties Along the Way
 
@@ -93,5 +93,5 @@ Throughout this project, our group faced significant challenges related to the l
 ## Key Take Aways
 Throughout this project my main key takeaways were that 
 - Collaboration empowers individuals, enabling them to discover superior solutions by leveraging diverse perspectives and insights from the data.
-- Data analysis extends beyond merely identifying variables. While a good analysis yields solutions, a great analysis demonstrates its impact and connects to tangible business value.
+- Data analysis extends beyond merely identifying variables. While a good analysis yields solutions, a great analysis demonstrates its impact and connects it to a tangible business value.
 - Cultivating a sense of curiosity is paramount in data analysis. Embracing curiosity allows us to derive meaningful insights from our solutions, encouraging deeper exploration of the data and uncovering novel and unexpected solutions. Staying curious throughout the analysis process motivates us to explore uncharted territories and unlocks valuable discoveries we may not have initially considered.
